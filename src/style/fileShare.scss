@@ -4,21 +4,26 @@
   align-items: center;
   background-color: antiquewhite;
   width: 70vw;
-  height: 70vh;
-  
+  height: 100vh;
 
   button {
-    background-color: #38AECC;
-    border-radius: 5px;
-    border-color: #022F40;
+      background-color: #38AECC;
+      border-radius: 5px;
+      border-color: #022F40;
   }
 
   .delete-button {
-    background-color: red;
+      background-color: red;
   }
 
-
   input {
-    margin: 10px;
+      margin: 10px;
+  }
+
+  .files-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      grid-gap: 20px;
   }
 }

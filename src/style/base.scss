@@ -1,9 +1,11 @@
 body {
   margin: 0px;
+}
+
 .app {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: center
-}
+  flex-direction: column;
+  align-items: center;
 }
